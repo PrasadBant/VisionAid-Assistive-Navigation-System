@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VisionAid</string>
+    <string name="cd_toggle_detection">Toggle object detection on or off</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="label_start">Start</string>
+    <string name="label_stop">Stop</string>
+    <string name="status_loading">Loading AI model...</string>
+    <string name="status_ready">Detection active</string>
+    <string name="status_paused">Detection paused</string>
+    <string name="status_error">Model error</string>
+    <string name="dialog_permission_title">Camera Permission Required</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_settings">Open Settings</string>
+    <string name="dialog_exit">Exit</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base dark theme — maximizes camera visibility and reduces eye strain -->
+    <style name="Theme.VisionAid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/warning_red</item>
+
+        <!-- Full screen: hide status bar for maximum camera area -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
